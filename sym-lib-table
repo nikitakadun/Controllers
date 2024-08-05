@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "motor_controller_50mm-rescue")(type "KiCad")(uri "C:/Users/Екатерина/Documents/KiCad/servo/brd/motor_controller_50mm-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "candleLight-rescue")(type "Legacy")(uri "C:/Users/New/Documents/KiCad/candleLight/candleLight-rescue.lib")(options "")(descr ""))
+)
