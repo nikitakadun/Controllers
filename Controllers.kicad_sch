@@ -126,121 +126,6 @@
 				)
 			)
 		)
-		(symbol "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011_0_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011_1_1"
-				(pin no_connect line
-					(at 0 0 0)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 0.127 0.127)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 0.127 0.127)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 212.09 378.46)
@@ -292,26 +177,6 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 199.39) (xy 312.42 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085fa680-2665-4504-8c50-04681cf1b39f")
-	)
-	(wire
-		(pts
-			(xy 383.54 199.39) (xy 383.54 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8dcf04-a1aa-4f0e-81cb-76007e84a2a6")
-	)
-	(bus
-		(pts
 			(xy 212.09 20.32) (xy 212.09 111.76)
 		)
 		(stroke
@@ -330,65 +195,15 @@
 		)
 		(uuid "21711759-5646-4376-9471-5e459295a093")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 381 196.85) (xy 377.19 196.85)
+			(xy 212.09 199.39) (xy 212.09 293.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "238af596-64a2-49f5-af13-4da55e008133")
-	)
-	(wire
-		(pts
-			(xy 391.16 151.13) (xy 377.19 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2a4286-33f5-458c-b0e9-eb392aedda00")
-	)
-	(wire
-		(pts
-			(xy 386.08 205.74) (xy 377.19 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f6b64f3-59c5-431e-b15f-5b744876729b")
-	)
-	(wire
-		(pts
-			(xy 341.63 210.82) (xy 353.06 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ff54b90-db09-4447-baa6-30a7d657feb0")
-	)
-	(wire
-		(pts
-			(xy 353.06 196.85) (xy 347.98 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354aaf51-bbb5-47de-830c-c05086922667")
-	)
-	(wire
-		(pts
-			(xy 309.88 161.29) (xy 316.23 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37907e2f-9336-420c-ab4d-e62138008442")
+		(uuid "39f57cc9-44fd-483a-aa7a-23d86b93277d")
 	)
 	(bus
 		(pts
@@ -418,57 +233,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4db4e2bb-bb51-4738-a7b3-dc81192639e4")
-	)
-	(bus
-		(pts
-			(xy 196.85 208.28) (xy 316.23 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53b53a72-d8c0-4d25-9049-37bcd5b05ab2")
-	)
-	(wire
-		(pts
-			(xy 345.44 186.69) (xy 341.63 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570d65c1-fab0-4434-aee8-984be6d941b2")
-	)
-	(wire
-		(pts
-			(xy 377.19 210.82) (xy 391.16 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7cc13a-bff3-456d-b536-ef7cf9c89ad7")
-	)
-	(wire
-		(pts
-			(xy 377.19 199.39) (xy 383.54 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f3902a-4bbe-434c-b3ce-30bf10444c8e")
-	)
-	(wire
-		(pts
-			(xy 391.16 210.82) (xy 391.16 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67daf649-c908-45a3-97d7-b08f6b49c013")
+		(uuid "570b3f49-5463-4fa2-a5ef-e7052e29115c")
 	)
 	(bus
 		(pts
@@ -480,16 +245,6 @@
 		)
 		(uuid "6e56df5e-92b2-432c-ba74-d887e6869eef")
 	)
-	(wire
-		(pts
-			(xy 347.98 184.15) (xy 341.63 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "749c28da-3616-48d5-b3f4-aadf890c6a7b")
-	)
 	(bus
 		(pts
 			(xy 212.09 293.37) (xy 212.09 378.46)
@@ -499,16 +254,6 @@
 			(type default)
 		)
 		(uuid "79bb6335-713e-4f6c-a17f-fd188a6eed18")
-	)
-	(wire
-		(pts
-			(xy 341.63 208.28) (xy 353.06 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c132fd-89e8-4408-8912-1ac69521da77")
 	)
 	(wire
 		(pts
@@ -530,6 +275,16 @@
 		)
 		(uuid "88d28375-c522-4671-b2d7-47594dbf8262")
 	)
+	(bus
+		(pts
+			(xy 196.85 208.28) (xy 196.85 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8933fc30-f9fc-4204-8205-79820286549b")
+	)
 	(wire
 		(pts
 			(xy 187.96 468.63) (xy 187.96 469.9)
@@ -539,96 +294,6 @@
 			(type default)
 		)
 		(uuid "8a569eb9-e75d-4bca-8ae2-9805d557b303")
-	)
-	(wire
-		(pts
-			(xy 345.44 199.39) (xy 345.44 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8e52fc-e0e6-450d-9ae9-0e8c1940a468")
-	)
-	(wire
-		(pts
-			(xy 383.54 161.29) (xy 377.19 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b484edd-7db5-4f97-964c-b2ca6ba497a8")
-	)
-	(wire
-		(pts
-			(xy 347.98 196.85) (xy 347.98 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92723eec-95e5-4303-8afc-fea9df204dbf")
-	)
-	(wire
-		(pts
-			(xy 381 163.83) (xy 377.19 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f1a5ba4-2a95-4da6-99ce-aa382a555dd5")
-	)
-	(wire
-		(pts
-			(xy 377.19 156.21) (xy 386.08 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e72fed-a4bc-4b5d-96f4-b87375d886de")
-	)
-	(bus
-		(pts
-			(xy 196.85 208.28) (xy 196.85 302.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6663ee4-ef5a-4e2b-86d6-12fcafda6c65")
-	)
-	(wire
-		(pts
-			(xy 381 196.85) (xy 381 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaffe0b8-7b10-4528-b2fe-997ef3837246")
-	)
-	(wire
-		(pts
-			(xy 312.42 205.74) (xy 316.23 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b310b88d-5159-4183-baea-86a1df4b259f")
-	)
-	(wire
-		(pts
-			(xy 316.23 208.28) (xy 309.88 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b84962e8-102f-460a-a9f5-16b7d3ceab14")
 	)
 	(bus
 		(pts
@@ -640,45 +305,15 @@
 		)
 		(uuid "ba793f0a-4024-4745-a218-d2f34c45cbac")
 	)
-	(wire
-		(pts
-			(xy 309.88 208.28) (xy 309.88 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9a443c-36cf-4eea-bccf-390fa9a86e92")
-	)
-	(wire
-		(pts
-			(xy 386.08 156.21) (xy 386.08 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1570108-1164-4a4d-9807-352c634bcde7")
-	)
-	(wire
-		(pts
-			(xy 388.62 208.28) (xy 377.19 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8015c9c-395e-44d6-bb49-722e2c7d7082")
-	)
 	(bus
 		(pts
-			(xy 212.09 199.39) (xy 212.09 293.37)
+			(xy 342.9 208.28) (xy 196.85 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8966624-2daf-44ab-9256-d753ce8374c5")
+		(uuid "bef8bc0e-3a57-43c2-a2a7-effe0dc3c585")
 	)
 	(bus
 		(pts
@@ -700,15 +335,15 @@
 		)
 		(uuid "d0359d4b-58be-428f-bce1-e74fdef7e050")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 388.62 153.67) (xy 377.19 153.67)
+			(xy 342.9 199.39) (xy 212.09 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d14216b1-7cfb-4538-ba1e-63068e97db4a")
+		(uuid "d96769c7-55af-46bb-b48d-37e65cd208e1")
 	)
 	(wire
 		(pts
@@ -729,16 +364,6 @@
 			(type default)
 		)
 		(uuid "e288d89d-596f-4b1d-a265-4e5e91fd3438")
-	)
-	(wire
-		(pts
-			(xy 341.63 205.74) (xy 353.06 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3df6f19-4576-467a-89d8-e377b55ee89f")
 	)
 	(bus
 		(pts
@@ -780,16 +405,6 @@
 		)
 		(uuid "ec8b9325-c64d-40af-8145-0abff575c4dc")
 	)
-	(wire
-		(pts
-			(xy 312.42 163.83) (xy 316.23 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecbdc66c-cb91-4efc-9455-0add0a1ffe6c")
-	)
 	(bus
 		(pts
 			(xy 196.85 30.48) (xy 196.85 120.65)
@@ -799,26 +414,6 @@
 			(type default)
 		)
 		(uuid "ee2ba97d-6a41-47f8-bc1f-1d559de481fc")
-	)
-	(wire
-		(pts
-			(xy 388.62 208.28) (xy 388.62 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f5876b-c5b7-48bf-ab19-887df7e2cd34")
-	)
-	(wire
-		(pts
-			(xy 312.42 205.74) (xy 312.42 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f316e539-9ffe-445f-8830-d1edc913b6f4")
 	)
 	(bus
 		(pts
@@ -840,16 +435,6 @@
 		)
 		(uuid "f60c0267-8e7b-4628-9739-0a3270c14ff2")
 	)
-	(wire
-		(pts
-			(xy 353.06 199.39) (xy 345.44 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe864c2f-c1c6-4039-8104-7d515c8a892e")
-	)
 	(bus
 		(pts
 			(xy 196.85 387.35) (xy 196.85 480.06)
@@ -869,195 +454,6 @@
 			(type default)
 		)
 		(uuid "ffb92649-f077-4691-afbc-35519bbb9382")
-	)
-	(symbol
-		(lib_id "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011")
-		(at 455.93 209.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000056fc5cd2")
-		(property "Reference" "FID101"
-			(at 455.93 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
-			(at 455.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
-			(at 455.93 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 455.93 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 455.93 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "826e85db-7adb-491e-a30f-0d1f80beb538")
-		)
-		(instances
-			(project ""
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(reference "FID101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011")
-		(at 455.93 199.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000056fc5dc9")
-		(property "Reference" "FID102"
-			(at 455.93 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
-			(at 455.93 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
-			(at 455.93 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 455.93 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 455.93 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "526db8f1-a3ea-4401-b0e5-4ae527d84fc8")
-		)
-		(instances
-			(project ""
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(reference "FID102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011")
-		(at 455.93 189.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000056fc6d4e")
-		(property "Reference" "FID103"
-			(at 455.93 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
-			(at 455.93 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
-			(at 455.93 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 455.93 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 455.93 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "3f12f191-ad58-4114-ba21-0b3a6483b147")
-		)
-		(instances
-			(project ""
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(reference "FID103")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1196,431 +592,159 @@
 		)
 	)
 	(sheet
-		(at 353.06 194.31)
-		(size 24.13 19.05)
+		(at 342.9 166.37)
+		(size 57.15 44.45)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "00000000-0000-0000-0000-000056f3b16b")
-		(property "Sheetname" "MCU"
-			(at 353.06 193.4714 0)
+		(uuid "1005d250-fc87-48da-8650-364af669a393")
+		(property "Sheetname" "CAN-USB"
+			(at 342.9 165.6584 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.sch"
-			(at 353.06 214.0462 0)
+		(property "Sheetfile" "CAN-USB.kicad_sch"
+			(at 342.9 211.4046 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
 		)
-		(pin "NRST" bidirectional
-			(at 377.19 210.82 0)
+		(pin "USB_DP" input
+			(at 342.9 170.18 180)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "6208ce85-2766-404b-95be-9a533af094e1")
-		)
-		(pin "SWCLK" input
-			(at 377.19 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "367d53ca-e12f-4e4f-b939-040e76a4cc65")
-		)
-		(pin "SWDIO" bidirectional
-			(at 377.19 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "b3c16861-fb5d-4377-a8a4-5adb3fb45c6e")
-		)
-		(pin "USB_DP" bidirectional
-			(at 377.19 199.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "ae9eb28a-69e7-445d-89ea-0a3b3e32144f")
-		)
-		(pin "USB_DM" bidirectional
-			(at 377.19 196.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "746ad7f7-2796-4fce-9c52-db7a747e62b5")
-		)
-		(pin "CAN_TX" output
-			(at 353.06 208.28 180)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "51436218-f56f-47aa-a760-a6637a9dc963")
+			(uuid "bcd2bc92-8c96-4ecc-89a2-5fbea472b85c")
 		)
-		(pin "LED2" output
-			(at 353.06 196.85 180)
+		(pin "USB_DM" input
+			(at 342.9 172.72 180)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1baee1a0-7dad-452f-9e16-06dc2c371cd2")
-		)
-		(pin "LED1" output
-			(at 353.06 199.39 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "206fef79-371b-455f-a47e-a0894597ced2")
-		)
-		(pin "CAN_S" output
-			(at 353.06 205.74 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "73e17dca-168c-437b-8ed3-6d04dca9fa8b")
-		)
-		(pin "CAN_RX" input
-			(at 353.06 210.82 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "9237c737-a98b-44fe-a77d-0b19b3a358e8")
-		)
-		(instances
-			(project "candleLight"
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 316.23 222.25)
-		(size 60.96 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000056f3b1a0")
-		(property "Sheetname" "Power"
-			(at 316.23 221.4114 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.sch"
-			(at 316.23 239.4462 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "candleLight"
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 316.23 194.31)
-		(size 25.4 19.05)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000056f3b1ac")
-		(property "Sheetname" "CAN"
-			(at 316.23 193.4714 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CAN.sch"
-			(at 316.23 214.0462 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CAN_TXD" input
-			(at 341.63 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "51608490-d915-4bcd-9c5a-e2d153e457b7")
-		)
-		(pin "CAN_RXD" output
-			(at 341.63 210.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "65e94846-5d88-4db4-84a4-229aa4738731")
-		)
-		(pin "CAN_S" input
-			(at 341.63 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "13da94f9-73cc-4365-a66d-4c79fd91628b")
-		)
-		(pin "CAN_H" bidirectional
-			(at 316.23 208.28 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "2749fb63-38a8-4be1-9b3a-2ff3a6cd9f59")
-		)
-		(pin "CAN_L" bidirectional
-			(at 316.23 205.74 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "60396325-4d52-477b-9491-d85aec5542d6")
-		)
-		(instances
-			(project "candleLight"
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 316.23 147.32)
-		(size 60.96 21.59)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000056f568c1")
-		(property "Sheetname" "Connectors"
-			(at 316.23 146.4814 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "connectors.sch"
-			(at 316.23 169.5962 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CAN_L" bidirectional
-			(at 316.23 163.83 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "8237002b-6f0f-43f7-8328-ef844b068dc3")
-		)
-		(pin "CAN_H" bidirectional
-			(at 316.23 161.29 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "d7f8e6d4-546e-466f-956c-e621d55933cb")
-		)
-		(pin "USB_DM" bidirectional
-			(at 377.19 163.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "7fe4c7fd-8b5e-468b-9107-5e131b39436d")
-		)
-		(pin "USB_DP" bidirectional
-			(at 377.19 161.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "c0fc88ac-9c61-4b6a-8623-0cfeac5fc7c8")
-		)
-		(pin "SWCLK" output
-			(at 377.19 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "a84d424e-8683-435f-9810-89886e8aa4cf")
-		)
-		(pin "SWDIO" bidirectional
-			(at 377.19 156.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "f8dfd596-6375-48fc-ba2b-bef932d381cb")
-		)
-		(pin "NRST" bidirectional
-			(at 377.19 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "7d66edbb-4d0b-4763-a243-cfaf546c10ac")
-		)
-		(instances
-			(project "candleLight"
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 316.23 181.61)
-		(size 25.4 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000056f5f6f8")
-		(property "Sheetname" "LEDs"
-			(at 316.23 180.7714 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "leds.sch"
-			(at 316.23 189.9162 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left top)
-			)
+			(uuid "b984559b-6ff7-4979-9ab5-eb297828be32")
 		)
 		(pin "LED2" input
-			(at 341.63 184.15 0)
+			(at 342.9 175.26 180)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "32b44f2c-e720-49ba-be55-e571fd1cb542")
+			(uuid "ddaab741-a65f-416c-bbd9-29727e90e4ad")
+		)
+		(pin "NRST" input
+			(at 342.9 177.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44c50b74-f887-4924-bcfb-3cc1358a6a1c")
+		)
+		(pin "SWCLK" input
+			(at 342.9 181.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "499de36a-2908-4696-971b-aa40c53349ee")
+		)
+		(pin "SWDIO" input
+			(at 342.9 184.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "512be944-d144-4ace-a036-89ed9478ae00")
 		)
 		(pin "LED1" input
-			(at 341.63 186.69 0)
+			(at 342.9 187.96 180)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "f7362c03-62de-41fd-a1ff-c1d84b9bb437")
+			(uuid "111e2a47-c51c-4306-8e27-9ee01c09d0dd")
+		)
+		(pin "CAN_TXD" input
+			(at 342.9 190.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "209cdfd4-f295-4c46-8234-d312235a52b0")
+		)
+		(pin "CAN_S" input
+			(at 342.9 195.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44fca43a-a60a-4a08-83c1-5d4d0370e738")
+		)
+		(pin "CAN_L" input
+			(at 342.9 199.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23be38c8-f862-409f-a9a4-3b058d9773fd")
+		)
+		(pin "CAN_H" input
+			(at 342.9 208.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "effbeb20-caac-4c70-a2dd-37b8273df045")
+		)
+		(pin "CAN_RXD" input
+			(at 342.9 193.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27e5b147-dc02-4550-84b0-855d62a755ed")
 		)
 		(instances
-			(project "candleLight"
-				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
-					(page "6")
+			(project "Controllers"
+				(path "/0d975edd-657e-4ffa-a06b-b9e7874b08d6"
+					(page "8")
 				)
 			)
 		)
