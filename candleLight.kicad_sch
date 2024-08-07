@@ -1,0 +1,1048 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a7c5f877-da93-493b-a81a-835318e2a893")
+	(paper "A4")
+	(lib_symbols
+		(symbol "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011_1_1"
+				(pin no_connect line
+					(at 0 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 0.127 0.127)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 0.127 0.127)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8dcf04-a1aa-4f0e-81cb-76007e84a2a6")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238af596-64a2-49f5-af13-4da55e008133")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 119.38 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2a4286-33f5-458c-b0e9-eb392aedda00")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6b64f3-59c5-431e-b15f-5b744876729b")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff54b90-db09-4447-baa6-30a7d657feb0")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354aaf51-bbb5-47de-830c-c05086922667")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37907e2f-9336-420c-ab4d-e62138008442")
+	)
+	(wire
+		(pts
+			(xy 151.13 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570d65c1-fab0-4434-aee8-984be6d941b2")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7cc13a-bff3-456d-b536-ef7cf9c89ad7")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f3902a-4bbe-434c-b3ce-30bf10444c8e")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67daf649-c908-45a3-97d7-b08f6b49c013")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749c28da-3616-48d5-b3f4-aadf890c6a7b")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c132fd-89e8-4408-8912-1ac69521da77")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8e52fc-e0e6-450d-9ae9-0e8c1940a468")
+	)
+	(wire
+		(pts
+			(xy 113.03 129.54) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b484edd-7db5-4f97-964c-b2ca6ba497a8")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92723eec-95e5-4303-8afc-fea9df204dbf")
+	)
+	(wire
+		(pts
+			(xy 115.57 127) (xy 119.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1a5ba4-2a95-4da6-99ce-aa382a555dd5")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e72fed-a4bc-4b5d-96f4-b87375d886de")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 115.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaffe0b8-7b10-4528-b2fe-997ef3837246")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b310b88d-5159-4183-baea-86a1df4b259f")
+	)
+	(wire
+		(pts
+			(xy 180.34 82.55) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84962e8-102f-460a-a9f5-16b7d3ceab14")
+	)
+	(wire
+		(pts
+			(xy 186.69 82.55) (xy 186.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9a443c-36cf-4eea-bccf-390fa9a86e92")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1570108-1164-4a4d-9807-352c634bcde7")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8015c9c-395e-44d6-bb49-722e2c7d7082")
+	)
+	(wire
+		(pts
+			(xy 107.95 137.16) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14216b1-7cfb-4538-ba1e-63068e97db4a")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3df6f19-4576-467a-89d8-e377b55ee89f")
+	)
+	(wire
+		(pts
+			(xy 184.15 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbdc66c-cb91-4efc-9455-0add0a1ffe6c")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f5876b-c5b7-48bf-ab19-887df7e2cd34")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f316e539-9ffe-445f-8830-d1edc913b6f4")
+	)
+	(wire
+		(pts
+			(xy 143.51 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe864c2f-c1c6-4039-8104-7d515c8a892e")
+	)
+	(symbol
+		(lib_id "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011")
+		(at 251.46 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056fc5cd2")
+		(property "Reference" "FID101"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
+			(at 251.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "826e85db-7adb-491e-a30f-0d1f80beb538")
+		)
+		(instances
+			(project ""
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(reference "FID101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011")
+		(at 251.46 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056fc5dc9")
+		(property "Reference" "FID102"
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "526db8f1-a3ea-4401-b0e5-4ae527d84fc8")
+		)
+		(instances
+			(project ""
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(reference "FID102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "candleLight-rescue:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011")
+		(at 251.46 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056fc6d4e")
+		(property "Reference" "FID103"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
+			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "3f12f191-ad58-4114-ba21-0b3a6483b147")
+		)
+		(instances
+			(project ""
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(reference "FID103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 77.47)
+		(size 24.13 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056f3b16b")
+		(property "Sheetname" "MCU"
+			(at 119.38 76.6314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 119.38 97.2062 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 119.38 80.01 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "6208ce85-2766-404b-95be-9a533af094e1")
+		)
+		(pin "SWCLK" input
+			(at 119.38 82.55 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "367d53ca-e12f-4e4f-b939-040e76a4cc65")
+		)
+		(pin "SWDIO" bidirectional
+			(at 119.38 85.09 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "b3c16861-fb5d-4377-a8a4-5adb3fb45c6e")
+		)
+		(pin "USB_DP" bidirectional
+			(at 119.38 91.44 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "ae9eb28a-69e7-445d-89ea-0a3b3e32144f")
+		)
+		(pin "USB_DM" bidirectional
+			(at 119.38 93.98 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "746ad7f7-2796-4fce-9c52-db7a747e62b5")
+		)
+		(pin "CAN_TX" output
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "51436218-f56f-47aa-a760-a6637a9dc963")
+		)
+		(pin "LED2" output
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "1baee1a0-7dad-452f-9e16-06dc2c371cd2")
+		)
+		(pin "LED1" output
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "206fef79-371b-455f-a47e-a0894597ced2")
+		)
+		(pin "CAN_S" output
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "73e17dca-168c-437b-8ed3-6d04dca9fa8b")
+		)
+		(pin "CAN_RX" input
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "9237c737-a98b-44fe-a77d-0b19b3a358e8")
+		)
+		(instances
+			(project "candleLight"
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 52.07)
+		(size 60.96 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056f3b1a0")
+		(property "Sheetname" "Power"
+			(at 119.38 51.2314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 119.38 69.2662 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "candleLight"
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 77.47)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056f3b1ac")
+		(property "Sheetname" "CAN"
+			(at 154.94 76.6314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 154.94 97.2062 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_TXD" input
+			(at 154.94 82.55 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "51608490-d915-4bcd-9c5a-e2d153e457b7")
+		)
+		(pin "CAN_RXD" output
+			(at 154.94 80.01 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "65e94846-5d88-4db4-84a4-229aa4738731")
+		)
+		(pin "CAN_S" input
+			(at 154.94 85.09 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "13da94f9-73cc-4365-a66d-4c79fd91628b")
+		)
+		(pin "CAN_H" bidirectional
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "2749fb63-38a8-4be1-9b3a-2ff3a6cd9f59")
+		)
+		(pin "CAN_L" bidirectional
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "60396325-4d52-477b-9491-d85aec5542d6")
+		)
+		(instances
+			(project "candleLight"
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 121.92)
+		(size 60.96 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056f568c1")
+		(property "Sheetname" "Connectors"
+			(at 119.38 121.0814 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 119.38 144.1962 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 180.34 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "8237002b-6f0f-43f7-8328-ef844b068dc3")
+		)
+		(pin "CAN_H" bidirectional
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "d7f8e6d4-546e-466f-956c-e621d55933cb")
+		)
+		(pin "USB_DM" bidirectional
+			(at 119.38 127 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "7fe4c7fd-8b5e-468b-9107-5e131b39436d")
+		)
+		(pin "USB_DP" bidirectional
+			(at 119.38 129.54 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "c0fc88ac-9c61-4b6a-8623-0cfeac5fc7c8")
+		)
+		(pin "SWCLK" output
+			(at 119.38 137.16 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "a84d424e-8683-435f-9810-89886e8aa4cf")
+		)
+		(pin "SWDIO" bidirectional
+			(at 119.38 134.62 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "f8dfd596-6375-48fc-ba2b-bef932d381cb")
+		)
+		(pin "NRST" bidirectional
+			(at 119.38 139.7 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "7d66edbb-4d0b-4763-a243-cfaf546c10ac")
+		)
+		(instances
+			(project "candleLight"
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 101.6)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056f5f6f8")
+		(property "Sheetname" "LEDs"
+			(at 154.94 100.7614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 154.94 109.9062 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED2" input
+			(at 154.94 106.68 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "32b44f2c-e720-49ba-be55-e571fd1cb542")
+		)
+		(pin "LED1" input
+			(at 154.94 104.14 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "f7362c03-62de-41fd-a1ff-c1d84b9bb437")
+		)
+		(instances
+			(project "candleLight"
+				(path "/a7c5f877-da93-493b-a81a-835318e2a893"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
